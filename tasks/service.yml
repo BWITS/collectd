@@ -1,0 +1,5 @@
+- name: Ensure the collectd service is started
+  service:
+    name: collectd
+    state: started
+    enabled: true
